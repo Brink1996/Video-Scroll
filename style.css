@@ -1,0 +1,67 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: Helvetica;
+}
+
+.intro{
+  height: 100vh;
+}
+
+.intro video{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.intro h1{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  z-index: 2;
+  color: white;
+}
+
+.text1{
+  font-size: 80px;
+}
+
+.text2{
+  color: white;
+  font-size: 25px;
+}
+
+.text3{
+  color: white;
+  font-size: 25px;
+  opacity: 0;
+}
+
+.moreinfo{
+  color: black;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+}
+
+.info{
+  height: 100vh;
+  padding-top: 300px;
+  font-size: 25px;
+  text-align: center;
+}
+
+.gradient{
+  position: absolute;
+  height: 100vh;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 1;
+}
